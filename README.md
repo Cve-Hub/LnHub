@@ -6078,7 +6078,7 @@ local Settings = Settings:newpage()
 
 local Stats = Window:Taps("Stats")
 local Stats = Stats:newpage()
-local Stats:Label("Stats")
+      Stats:Label("Stats")
 
       Stats:Toggle("Melee", _G.Melee, function(vu)
           
