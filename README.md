@@ -1,12 +1,12 @@
-if not game:IsLoaded() then 
 
-    repeat game.Loaded:wait(0.2) 
 
-        wait(10)
 
-    until game:IsLoaded() 
 
-end
+
+
+
+
+
 
 -----------------------------------------
 
