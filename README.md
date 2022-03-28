@@ -6062,6 +6062,7 @@ end
 	local Window = create:Win("LUNAR HUB [FREE]")
 	local Main = Window:Taps("Main")
 	local Main = Main:newpage()
+	
           Main:Label("AutoFarmSection")
        
           Main:Toggle("AutoFarm", _G.AutoFarmLv, function(vu)
@@ -6071,6 +6072,7 @@ end
 
 local Settings = Window:Taps("Settings")
 local Settings = Settings:newpage()
+
       Settings:Label("Settings")
 
       Settings:Toggle("FastAttack", _G.FastAttk, function(vu)
@@ -6078,6 +6080,7 @@ local Settings = Settings:newpage()
 
 local Stats = Window:Taps("Stats")
 local Stats = Stats:newpage()
+
       Stats:Label("Stats")
 
       Stats:Toggle("Melee", _G.Melee, function(vu)
