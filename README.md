@@ -6061,7 +6061,7 @@ end
 
 	local Window = create:Win("LUNAR HUB [FREE]")
 	local Main = Window:Taps("Main")
-	local Main = Tap2:newpage()
+	local Main = Tap:newpage()
 
        Main:Label("AutoFarmSection")
        
